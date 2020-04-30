@@ -1,0 +1,52 @@
+#main-doc{
+    padding: 20px 40px 20px 40px;
+    background-color: white;
+    margin: 0px 50px 20px 200px;
+    color: gray;
+}
+#code{
+    width: 50%;
+    justify-content: center;
+    background-color:hsl(240, 0%, 90%);
+    text-align: justify;
+}
+.sidebar {
+  margin: 0;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  width: 200px;
+  background-color:white;
+  position: fixed;
+  height: 100%;
+  overflow-x: hidden;
+}
+.sidebar-item a {
+  display: block;
+  color: gray;
+  padding: 6px 8px 6px 16px;
+  text-decoration:underline;
+  font-size: 15px;
+  
+}
+nav{
+    border-style: groove;
+    border-color: gainsboro;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: 200px;
+    position: top;
+  }
+    .sidebar-item{
+        float: none;
+    }  
+  main{
+      position: absolute;
+      top: 200px;
+      margin-top: 300px;
+  }
+}
+
